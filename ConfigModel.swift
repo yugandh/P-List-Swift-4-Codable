@@ -9,7 +9,18 @@
 import Foundation
 
 struct Config: Codable {
+    var person: Person?
+    var color: Color?
+}
+
+struct Person: Codable {
     var name: String
     var age: Int
     var isWorking: Bool
+}
+
+struct Color: Codable {
+    var background: String
+    var foreground: String
+    var border: String
 }

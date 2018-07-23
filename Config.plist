@@ -2,11 +2,23 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>name</key>
-	<string>Yugan</string>
-	<key>age</key>
-	<integer>28</integer>
-	<key>isWorking</key>
-	<false/>
+	<key>person</key>
+	<dict>
+		<key>name</key>
+		<string>yugan</string>
+		<key>age</key>
+		<integer>28</integer>
+		<key>isWorking</key>
+		<false/>
+	</dict>
+	<key>color</key>
+	<dict>
+		<key>background</key>
+		<string>red</string>
+		<key>foreground</key>
+		<string>blue</string>
+		<key>border</key>
+		<string>gray</string>
+	</dict>
 </dict>
 </plist>
